@@ -9,7 +9,7 @@ rate = float(input_rate)
 if hours <=40: 
   pay= rate * hours 
   
- else:
+else:
   overtime = hours - 40
   pay = rate * 40 + (1.5 * rate * overtime) 
   print (pay) 
